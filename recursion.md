@@ -40,5 +40,34 @@ int main() {
      }}
 '''
 
+
+  *Fibonacci series using rercusion.*
+  In Fibonacci series, the next number is as a result of the sum of the previous 2 numbers, i.e, 0,1,1,2,3,5,8,13
+  0 and 1 are the first two numbers in a Fibonacci series.
+   The code below shows recursion
+   
+   '''java 
+   class FibonacciSeries {
+   static int num1=0, num2=1, num3=0;
+   static void PrintFibonacci(int Count) {
+   
+     if (Count>0){
+     num3=num1+num2;
+     num1=num2;
+     num2=num3;
+    System.out.print("" +num3);
+      printFibonacci(Count-1)
+     }
+     }
+     public static void main (String[]args) {
+     int Count=10;
+     System.out.print(num1 +" "+ num2);// prints 0 and 1
+     printFibonacci(Count-2) // The num is 2 because the first two numbers have been printed
+     }
+   
+   
+   
+   
+   }
             
             
