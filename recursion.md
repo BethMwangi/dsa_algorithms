@@ -1,7 +1,10 @@
 ###Recursion
-Recursion is a process where a function calls itself.In programing the recursion technique is importat for computational applications like sorting, combinatorial searches. 
+Recursion is a process where a function calls itself.In programing the recursion technique is important for computational applications like sorting, combinatorial searches. 
 
- #######Example  of recursion in C Programming 
+***Example  of recursion in C Programming***
+
+
+'''c 
 void recursion() {
    recursion(); /* function calls itself */
 }
@@ -9,6 +12,9 @@ void recursion() {
 int main() {
    recursion();
 }
+'''
+
+
  From the above program, the function recursion calls itself 
  
  
